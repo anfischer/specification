@@ -1,4 +1,4 @@
-# Base classes for implementing the Specification pattern in PHP.
+# PHP Specification pattern
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -7,7 +7,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-A package containing base classes to be used as a starting ground for implementing the Specification pattern in PHP (for more information see [https://martinfowler.com/apsupp/spec.pdf](https://martinfowler.com/apsupp/spec.pdf)).  
+A package containing base classes to be used as a starting ground for implementation of the Specification pattern in PHP (for more information see [https://martinfowler.com/apsupp/spec.pdf](https://martinfowler.com/apsupp/spec.pdf)).  
   
 This package includes the typical set of and(), or() and not() specifications as well as specifications for allOf(), anyOf() and noneOf().
 
@@ -20,9 +20,8 @@ $ composer require anfischer/specification
 ```
 
 ## Usage
-General usage of the specifications pattern can be inferred from this package test cases.
-
-However a very basic and simplified example of usage with a single specification to satisfy might look like this:
+General usage of this package can be inferred from its test cases.  
+However a very basic and simplified example of usage with a single specification to (not) satisfy might look like this:
 ``` php
 use Anfischer\Specification\Specification;
 
